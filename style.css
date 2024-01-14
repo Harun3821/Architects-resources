@@ -92,13 +92,6 @@ margin-bottom: 10px;
 
 
 
-
-
-
-
-
-
-
 /*Mobile divices */
 @media screen and (max-width: 576px){
     header{
@@ -106,6 +99,12 @@ margin-bottom: 10px;
     }
     nav{
         flex-direction: column;
+    }
+    .trem-continer{
+        flex-direction: column;
+    }
+    .trem-text{
+        padding: 20px;
     }
 }
 /*tablat or medim devices*/
@@ -115,6 +114,12 @@ margin-bottom: 10px;
     }
     nav{
         flex-direction: column;
+    }
+    .trem-continer{
+        flex-direction: column;
+    }
+    .trem-text{
+        padding: 50px;
     }
 }
 
