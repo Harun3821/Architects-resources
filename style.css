@@ -3,237 +3,70 @@
  font-family: Work Sans;
 }
 header{
-    padding:40px 250px;
-    background:rgba(255, 144, 14, 0.10);
-   
+  width: 100%;
+  height: 100vh;
+  background:#f8f6f6;
 }
 .heder-titel{
-    font-size: 40px;
+    padding: 0 50px;
+    font-size: 25px;
     font-weight: 600;
 }
 nav{
-    display: flex;
     justify-content: space-between;
+    display: flex;
+    padding: 30px ;
     align-items: center;
-    
 }
 nav > ul{
-    display: flex;
+   display: flex;
+   margin-right:80px;
 }
-nav li{
-    margin-right: 30px;
-    list-style: none;
+nav ul li{
+list-style: none;
+margin: 0 10px;
 }
 nav li a{
     text-decoration: none;
     font-size: 18px;
-    color: #131313;
+    color: black;    
 }
 .tex-box{
-    max-width: 800px;
-    text-align: center;
-    margin: 80px auto;
+    padding: 0 75px;
+    margin: 30px auto;
     font-size: 12px;
-    
-}
-.banner-text{
-    font-size: 30px;
-    font-weight: 600;
-}
-.btn{
-    background-color: orange;
-    border: none;
-    cursor: pointer;
-    font-size: 11px;
-    padding: 10px 12px;
-    color: #ffffff;
-    border-radius: 5px;
-   margin: 10px 0;
-}
-.img-box img{
-    width: 100%;
-    margin:0 auto;
-}
-/*main section*/
-main{
-    max-width: 1400px;
-    margin:70px 70px auto;
-}
-.trem-continer{
-    display: flex;
-    align-items: center;
-}
-.trem-img{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-.trem-text{
-    padding-right: 70px;
-    padding-left: 70px;
-    font-size: 10px;
-    color:  #727272;
-}
-.trem-text span{
-color: #FF900E;
-font-weight: 700;
-
-}
-.trem-text h3{
-   color: #131313;
-   margin-bottom: 6px;
-   font-size:22px;
-}
-.trem-text  .Quick{
-color:  #727272;
-margin-bottom: 10px;
-}
-.section-div{
-    max-width: 1400px;
-    margin:70px 70px auto;
-   
-}
-.texx-continer{
-   display: flex;
-   align-items: center;
-}
-.text-decorection{
-    display:grid;
-    align-items: center;
-    grid-template-columns: repeat(1, 1fr);
-}
-.text-boxxx{
-   max-width:500px;
-   color: black;
-   font-size: 12px;
-   color: #727272;
-   box-shadow: 0 4px 6px 4px rgba(245, 242, 242, 0.8);
-   background:#ffffff;
-   
-}
-.text-boxxx h4{
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
-}
-.text-boxx{
-   max-width:500px;
-   color: black;
-   font-size: 12px;
-   color: #727272;
-   box-shadow: 0 6px 5px 4px rgba(245, 242, 242, 0.8);
-   background: transparent;
-  
-}
-.text-boxx h4{
-    font-size:18px;
-    font-weight: 600;
-    color: black;
-}
-.img-boxxx{
-margin-left:46%;
-position: absolute;
-display:flex;
-}
-.img-boxxx img{
-    width: 508px;
-    height: 608px;
-}
-.img-boxxx button{
-    position: absolute;
-    border: none;
-    background: #FF900E;
-    font-size: 14px;
-    color: #ffffff;
-    padding: 25px 38px;
-    border-radius: 4px;
-    margin-top: 105%;
-    right: 70%;
-}
-.img-boxxx span{
-    font-size: 30px;
-    color: #ffffff;
     font-weight: bold;
-} 
-/*frecher section*/
-.frecher{
-    margin:90px 70px auto;
-    max-width:500px;
-    font-size: 12px;
-    color: #727272;
+    justify-content: space-between;
     display: flex;
 }
-.facts-boxx h4{
-    font-size:18px;
-    font-weight: 600;
-    color: black;
+.tex-box h1{
+    font-size: 30px;
+    font-weight: bold;
 }
-/*img box section*/
-.div-head{
+.tex-box button{
+    border: none;
+    padding: 7px 16px;
+    background: #E02C6D;
+    color: #ffffff;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+.tex-box img{
+ max-width:35%;;
+}
+.Logo-icon{
+    margin: 50px auto;
     display: flex;
+    align-items: center;
+    gap: 70px;
     justify-content: center;
-    align-items: center;
-    position:relative;
-    margin:50px 30px auto;
-    gap:40px;
-}
-
-.box-div{
-    width: 200px;
-    height: 150px;
-    border: 1px solid #FF900E;
-    text-align: center;
-    color: #131313;
-    font-weight: bold;
-    align-items: center;
-}
-.box-div img{
-    width: 20px;
-    height: 20px;
-    margin:15px auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     background: transparent;
-   
-}
-.box-div p{
-    font-size: 10px;
+    box-shadow: 0 6px 6px 3px rgba(#f8f6f6 0,0,0.3);
+    max-width:83%;
 }
 
-.box-tex{
-    text-align: center;
-    margin:70px auto;
-    font-size: 12px;
-    color: #727272;
-}
-.box-tex h1{
-    font-size: 35px;
-    color: #131313;
-    margin-bottom: 15px;
-}
-.Sponspors-logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -40px auto;
-   
-}
-.logo img{
-width:50%;
-margin-inline:20px;
-}
-/*footer section*/
-
-.footter{
- display: flex;
- justify-content: center;
- align-items: center;
- margin: 50px auto;
- background:rgba(255, 144, 14, 0.10);
- text-align: center;
- font-size: 10px;
- border-radius: 4px;
- padding: 10px 50px;
- width: 70%;
-}
 
 
 
@@ -245,55 +78,17 @@ margin-inline:20px;
 /*Mobile divices */
 @media screen and (max-width: 576px){
     header{
-        padding:20px;
+       padding: 10px;
     }
-    nav,
-    .trem-continer{
-      flex-direction: column;
+    nav{
+        flex-direction: column;
     }
-    .trem-img{
-        grid-template-columns:1fr;
+    .Logo-icon{
+     display:block;
+     margin-left: 10px;
     }
-   .texx-continer{
-    flex-direction: column;
-    display:flex;
 }
-.text-decorection{
-   flex-direction: column;
-   display: block;
-   text-align: center;
-}
-.img-boxxx{
-    margin: -190px;
-    margin-top: 50px;
-}
-.frecher{
-   margin-top:160%;
-   display:flex;
-   position: absolute;
-}
-.facts-boxx{
-    text-align: center;
-    font-size: 8px;
-}
-.div-head{
-    display:flex;
-    flex-direction: column;
-    position:relative;
-    margin-top: 200%;
-}
-.box-tex  p{
-  font-size:8px;
-}
-.Sponspors-logo{
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
-}
-.footter{
-    max-width: 50%;
-}
-}
+   
 
 /*tablat or medim devices*/
 @media screen and (min-width: 576px) and (max-width: 1024px){
@@ -306,16 +101,10 @@ margin-inline:20px;
     .trem-continer{
         flex-direction: column;
     }
-    .trem-text{
-        padding: 50px;
-    }
-    .texx-continer, .text-decorection{
-        flex-direction: column;
-        display:flex;
-    }
-    .facts-boxx{
-        text-align: center;
-    }
+   .Logo-icon{
+    display: flex;
+    gap: 10px;
+   }
    
 }
 
